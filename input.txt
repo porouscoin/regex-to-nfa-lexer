@@ -1,0 +1,8 @@
+int main() {
+    int abc$ = 10;    // abc$ is invalid because it contains '$'
+    bool flag = true; /*apple
+    apple */ double y = 3.14159 ^ 2;
+    cout << "Value: " << abc$ << endl;
+    cin >> abc$;
+    return 0;
+}
